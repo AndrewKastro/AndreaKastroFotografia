@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Inicio</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <link rel="stylesheet"  href="../src/css/lightslider.css"/>
+    <style>
+    	ul{
+			list-style: none outside none;
+		    padding-left: 0;
+            margin: 0;
+		}
+        .demo .item{
+            margin-bottom: 60px;
+        }
+		.content-slider li{
+		    background-color: #ed3020;
+		    text-align: center;
+		    color: #FFF;
+		}
+		.content-slider h3 {
+		    margin: 0;
+		    padding: 70px 0;
+		}
+		.demo{
+			width: 1200px;
+		}
+    </style>
+    <link href="inicio.css" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../src/js/lightslider.js"></script> 
+    <script>
+    	 $(document).ready(function() {
+			$("#content-slider").lightSlider({
+                loop:true,
+                keyPress:true
+            });
+            $('#image-gallery').lightSlider({
+                gallery:true,
+                item:1,
+                thumbItem:9,
+                slideMargin: 0,
+            
+                auto:true,
+                loop:true,
+                onSliderLoad: function() {
+                    $('#image-gallery').removeClass('cS-hidden');
+                }  
+            });
+		});
+    </script>
+</head>
+<body>
+	
+	<header id="cabecalho">
+
+	<div id="banner">
+		<img src="img/logo.png" width="300" height="125" alt="andreakastro" id="logo"/>
+	
+	<nav id="menu">	
+				<ul>						
+			<li>	<a href="inicio.html">Inicio</a> </li>
+			<li>	<a href="sobre.html">Sobre mim</a> </li>
+			<li>	<a href="portafolio.html">Portafolio</a> </li>	 				
+			<li>	<a href="clientes.html">Clientes</a> </li>	
+			<li>	<a href="contato.html">Contato</a> </li>
+		    <li>    <a href="https://www.facebook.com/andreakastrofotografia/"><img src="img/Facebook.png" width="32" height="32"/></a> </li>
+		    <li>    <a href="https://www.instagram.com/andreakastrofotografia/"><img src="img/Instagram.png" width="32" height="32"/></a>  </li>
+			<li>	<a href="inicio.html"><img src="img/português.png" width="32" height="32"/></a> </li>
+			<li>	<a href="inicio - esp.html"><img src="img/español.png" width="32" height="32"/></a> </li>
+			<li>	<a href="inicio - ing.html"><img src="img/ingles.png" width="32" height="32"/></a> </li>
+				</ul>
+			
+			</nav>	<!--Fim Menu-->					
+</div><!--Fim Banner-->
+	
+</header><!--fin Cabeçalho-->
+	
+	<div id="teste"><!--para centralizar la pag-->
+	
+	<div class="demo">
+        <div class="item">            
+            <div class="clearfix" style="max-width:1200px;">
+                <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+                    <li data-thumb="img/thumb/18.jpg"> 
+                        <img src="img/18.jpg"/>
+                         </li>
+                    <li data-thumb="img/thumb/19.jpg"> 
+                        <img src="img/19.jpg"/>
+                         </li>
+                    <li data-thumb="img/thumb/20.jpg"> 
+                        <img src="img/20.jpg"/>
+                         </li>
+                    <li data-thumb="img/thumb/21.jpg"> 
+                        <img src="img/21.jpg"/>
+                         </li>
+                    <li data-thumb="img/thumb/22.jpg"> 
+                        <img src="img/22.jpg"/>
+                         </li>
+                    <li data-thumb="img/thumb/23.jpg"> 
+                        <img src="img/23.jpg"/>
+                         </li>
+                    <li data-thumb="img/thumb/24.jpg"> 
+                        <img src="img/24.jpg"/>
+                         </li>
+                    <li data-thumb="img/thumb/25.jpg"> 
+                        <img src="img/25.jpg"/>
+                         </li>
+                    <li data-thumb="img/thumb/26.jpg"> 
+                        <img src="img/26.jpg"/>
+					</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+	
+	<section id="mim">
+		
+    <div id="fotomim">
+		<img src="img/27.jpg" width="375" height="300" alt="mim" id="img"/>
+		</div><!--fin fotomim-->
+	
+		<div id="palavras">
+		<p>Coleciona momentos,</p>
+        <p>não coisas; deixa a gente</p>
+        <p>capturar sua felicidade</p>
+        <p>para assim você lembrar </p>
+        <p>pelo resto da sua vida toda.</p>
+		</div><!--fin palavras-->
+	</section><!--fin mim-->
+	
+	<section id="galeria">
+		<div id="grow">
+	<img style="float:left;clear:none;" src="img/28.jpg"/>
+	<img style="float:left;clear:none;" src="img/29.jpg"/>
+	<img style="float:left;clear:none;" src="img/30.jpg"/>
+	<img style="float:left;clear:none;" src="img/31.jpg"/>	
+		</div>
+	</section>
+	
+	<section id="informacao">
+	
+		<div id="caixas">
+	
+		<div id="caixa1">
+			
+			<img src="img/pintura.jpg" id="pintura"/>
+			
+	<nav id="dados">
+			<ul>						
+			<li>	<img src="img/whatsapp.png" width="32" height="32"/> +5521994031392 </li>
+			<li>	<img src="img/gmail-pen.png" width="32" height="32"/> amorarteevida@gmail.com</li>
+			
+		    <li>    <a href="www.facebook.com/andreakastrofotografia"><img src="img/Facebook.png" width="32" height="32"/> @andreakastrofotografia</a> </li>
+			
+		    <li>    <a href="www.instagram.com/andreakastrofotografia"><img src="img/Instagram.png" width="32" height="32"/> andreakastrofotografia</a>  </li>
+			
+				</ul> 
+			</nav>	<!--Fim dados-->					
+</div><!--Fim caixa1-->		
+			
+			
+			
+		
+			<!--<section id="redes">
+			<a href="https://www.facebook.com/andreakastrofotografia/"><img src="img/Facebook.png" width="32" height="32"/> </a> 
+			
+			
+			
+			<!--<a href="https://www.instagram.com/andreakastrofotografia/">--<p class="titulo"><img src="img/Instagram.png" width="32" height="32"/>!--</a> 
+			<a href="https://www.instagram.com/andreakastrofotografia/">-- andreakastrofotografia/p<!--</a>-->
+			<!--/secton<!--fin section redes-->
+				<!--</section><!--fin section dados--
+		</div> caixa2-->
+							
+		
+				<div id="caixa2">
+					
+			<p class="formulario">Fala comígo</p>
+					
+		<form action="/pagina-processa-dados-do-form" method="post">
+     <div>
+        
+        <input type="text" id="name" placeholder=" Nome:"/>
+    </div>
+		<div>
+       
+        <input type="telefone" id="tel" placeholder=" Telefone:"/>
+    </div>	
+		
+    <div>
+       
+        <input type="email" id="mail" placeholder=" E-mail:"/>
+    </div>
+		<div>
+        <!--<label for="data">Data do evento:</label> para ficar fora do cuadro-->
+        <input type="data" id="data" placeholder=" Data do evento:"/>
+    </div>	
+		<div>
+      
+        <input type="lugar" id="lugar" placeholder=" Lugar do evento:"/>
+    </div>
+    <div>
+       
+        <textarea id="msg" placeholder=" Mensagem:"></textarea>
+    </div>
+    <div class="button">
+        <button type="submit">Envíar para Andrea</button>
+    </div>
+</form>
+		</div>
+	</div> <!--Fin Caixas-->
+	</section><!--Fin informação-->
+			</div><!--Fim teste-->	
+		
+	<footer id="rodape">
+		Copyright © 2018 Andrea Kastro Fotografia - Todos os direitos reservados<br/>
+
+</footer> <!--fim rodapé-->
+	
+
+</body>
+</html>

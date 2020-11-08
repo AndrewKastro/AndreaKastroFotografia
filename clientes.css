@@ -1,0 +1,396 @@
+@charset "utf-8";
+
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+
+*{/*el simbolo asterisco, selecciona todas las margenes y todas las fuentes de ese elemento*/
+	margin:0;
+	padding:0;
+}
+
+
+
+body{
+	background-color:#515050;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+
+
+header#cabecalho{
+  width:100%;
+  height:145px;
+  background-color:#292929;
+
+}
+
+
+
+header#cabecalho div#banner{
+  width:1200px;
+  height:125px;
+  /*background-color:pink;para a prova, depois pode apagar*/
+  margin: auto;
+  
+}
+
+ header#cabecalho div#banner img#logo{
+    float: left;
+	margin-top: 5px;
+	 margin-left:30px;
+}
+
+ 
+ header#cabecalho div#banner nav#menu{
+    float: left;
+	margin-top: 5px;
+	margin-left: 30px;
+	margin-top: 70px;
+}
+
+header#cabecalho div#banner nav#menu ul li{
+	list-style: none;
+	display: inline;
+	margin-right: 10px;/* espacio entre links*/
+	margin-left: 10px;
+}
+
+
+header#cabecalho div#banner nav#menu ul li a{
+	text-decoration: none;
+	color: #0BF4F8;
+	font-family: 30px;/*tipo da fonte*/
+	font-size: 23px;/*tamanho da fonte*/
+	font-family:'Shadows Into Light Two', cursive;
+	
+}
+
+header#cabecalho div#banner nav#menu ul li a:hover{
+	border-bottom: 2px solid #52F0FD;
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family:'Shadows Into Light Two', cursive;
+}
+
+
+section#menu{
+	width: 95%;
+	max-width: 1200px; /*largura máxima*/
+	height: auto;
+	margin: auto;
+}
+div#teste{
+	width: 1200px;
+	height: 2540px;
+	margin: auto;
+}
+
+/*section#mim{
+	width: 100%;
+	height: 130px;
+	margin-top: 0px;
+	background-color: #E40FE3;
+	float:top;
+	clear:none;
+}*/
+section#mim div#fotomim{
+	width: 250px;
+	height: 130px;
+    margin:auto;
+	
+}
+section#galeria{
+	width:1200px;
+  height:1050px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 10px;
+	
+}
+
+section#galeria div#foto1{
+	width:300px;
+    height:500px;
+	background-color:none;
+	float:left;
+	/*border: 0px solid #9F1B8A;*/
+    margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 23px;
+	/*font-weight: bold;*/
+	margin-bottom: 10px;
+    text-align: center;
+}
+
+section#galeria div#foto2{
+	width:300px;
+    height:500px;
+	background-color:none;
+	float:left;
+	/*border: 0px solid #9F1B8A;*/
+    margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 23px;
+	/*font-weight: bold;*/
+	margin-bottom: 10px;
+    text-align: center;
+}
+
+section#galeria div#foto3{
+	width:300px;
+    height:500px;
+	background-color:none;
+	float:left;
+	/*border: 0px solid #9F1B8A;*/
+    margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 23px;
+	/*font-weight: bold;*/
+	margin-bottom: 10px;
+    text-align: center;
+}
+
+section#galeria div#foto4{
+	width:300px;
+    height:500px;
+	background-color:none;
+	float:left;
+	/*border: 0px solid #9F1B8A;*/
+    margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 23px;
+	/*font-weight: bold;*/
+	margin-bottom: 10px;
+    text-align: center;
+}
+
+section#galeria div#foto5{
+	width:300px;
+    height:500px;
+	background-color:none;
+	float:left;
+	/*border: 0px solid #9F1B8A;*/
+    margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 23px;
+	/*font-weight: bold;*/
+	margin-bottom: 10px;
+    text-align: center;
+}
+
+section#galeria div#foto6{
+	width:300px;
+    height:500px;
+	background-color:none;
+	float:left;
+	/*border: 0px solid #9F1B8A;*/
+    margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 23px;
+	/*font-weight: bold;*/
+	margin-bottom: 10px;
+    text-align: center;
+}
+
+section#galeria div#foto7{
+	width:300px;
+    height:500px;
+	background-color:none;
+	float:left;
+	/*border: 0px solid #9F1B8A;*/
+    margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 23px;
+	/*font-weight: bold;*/
+	margin-bottom: 10px;
+    text-align: center;
+}
+
+section#galeria div#foto8{
+	width:300px;
+    height:500px;
+	background-color:none;
+	float:left;
+	/*border: 0px solid #9F1B8A;*/
+    margin: 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 23px;
+	/*font-weight: bold;*/
+	margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+section#galeria div#galeria2 img{
+	float:left;
+	clear:none;
+}
+
+
+section#informacao div#caixas{
+	width: 1200px;
+	height: 550px;
+	/*background-color: pink;despues de hecho se borra este item*/
+	margin-top: 10px;
+	/*background-color: #9A02CB;*/
+}
+
+	
+section#informacao div#caixas div#caixa1{
+	width: 550px;
+	height: 550px;
+	/*background-color: green;*/
+	float: left;
+}
+
+section#informacao div#caixas div#caixa1 img#pintura{
+	width: 450px;
+	height:185px;
+	margin-left:70px;
+	margin-top: 0px;
+	 
+}
+
+
+section#informacao div#caixas div#caixa1 nav#dados ul li{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 23px;
+	/*font-weight: bold;*/
+	margin-top: 20px;
+	margin-left: 70px;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+section#informacao div#caixas div#caixa1 nav#dados ul li a{
+	text-decoration:none;
+	color: #FFFFFF;
+}
+
+section#informacao div#caixas div#caixa1 nav#dados ul li a:hover{
+	text-decoration:none;
+	text-indent: none;
+	color: #FFFFFF;
+}
+
+
+
+/*section#informacao div#caixas div#caixa1 p.titulo:hover{
+	border-bottom: 2px solid #52F0FD;
+}
+
+section#informacao div#caixas div#caixa1 a:hover{
+	border-bottom: 2px solid #52F0FD;
+}*/
+
+section#informacao div#caixas div#caixa2{
+	width: 550px;
+	height: 550px;
+	/*background-color: purple;*/ 
+	margin-left: 20px;
+	float:right;
+}
+
+
+section#informacao div#caixas div#caixa2 p.formulario{
+	color: #FFFFFF;
+	font-size: 23px;
+	/*font-weight: bold;*/
+	margin-top: 0px;
+	margin-left: 50px;
+	font-family: 'Shadows Into Light Two', cursive;
+	text-align:left;
+}
+	
+form {
+    /* Apenas para centralizar o form na página */
+    margin-left: 50px;
+	margin-top: 10px;
+    width: 500px;
+	height: 445px;
+    /* Para ver as bordas do formulário */
+   /* padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;*/
+}
+
+form div + div {
+    margin-top: 2em;
+}
+
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+input, textarea {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1.3em 'Shadows Into Light Two', cursive;
+	
+    
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000000;
+}
+
+
+button {
+    font-size: 1.5em;
+    background: #292929;
+    border: 0;
+    margin-bottom: 1em;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+button:hover {
+    background: #ffffff;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+	font-family: 'Shadows Into Light Two', cursive;
+	color:#292929;
+}
+
+
+footer#rodape{
+	width: 100%;
+	height: auto;
+	background-color: #292929;
+	color: #0BF4F8;/*color da fuente*/
+	padding-top: 10px; /*margem rodape*/
+	padding-bottom: 10px;
+	text-align: center;
+	line-height: 26px;
+	font-size: 23px;
+	
+}
